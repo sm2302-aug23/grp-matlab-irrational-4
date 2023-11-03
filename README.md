@@ -5,7 +5,7 @@
 
 ## Solution to Task 3
 
-```
+```ruby
 function plotWord(word)
     % Load cursive letters map
     load('cursive_letters.mat'); % Load the map containing cursive letter coordinates
