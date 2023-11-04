@@ -3,8 +3,8 @@
 # Group Assignment (MATLAB)
 
 # Summary 
-
-> Description of solutions to all the tasks
+## Introduction
+Welcome to our project repository! This collaborative effort involves a comprehensive approach to recreating cursive handwriting using digital methods. Our team, consisting of four members, has embarked on the journey of crafting, storing, and merging data plot points to form cohesive cursive words, as well as undertaking specific steps involving graph paper transcription and digital reconstruction to bring cursive writing to life.
 
 # Digital Reconstruction
 Using the `names.mat` from Task 1, plot data points with the use of:
