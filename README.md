@@ -1,4 +1,3 @@
-<img width="553" alt="hello" src="https://github.com/sm2302-aug23/grp-matlab-irrational-4/assets/141397076/948dced7-d04e-4bdd-81d4-aac6a7ea7c28">[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/i8q0vJZ5)
 
 # Group Assignment (MATLAB)
 
