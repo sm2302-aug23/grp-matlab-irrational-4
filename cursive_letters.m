@@ -2,8 +2,8 @@
 cursiveMap = containers.Map;
 
 % Define cursive letter 'a' coordinates
-x_a = [1 1.5 2 4 2.52866 2 3 4.2 4.2 5];
-y_a = [0.5 2 2.5 3 2.72125 1.5 0.5 3 2 0.5];
+x_a = [1 1.5 2.5 4 2.5 2 3 4.2 4.2 5];
+y_a = [0.5 2 3 3 3 1.5 0.5 3 2 0.5];
 cursiveMap('a') = [x_a; y_a]';
 
 % Define cursive letter 'b' coordinates
@@ -135,3 +135,4 @@ cursiveMap('z') = [x_z; y_z]';
 
 % Saving the map to a MAT file
 save('cursive_letters.mat', 'cursiveMap');
+
