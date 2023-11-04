@@ -6,13 +6,20 @@
 
 > Description of solutions to all the tasks
 
-## Task 1 Solution
+## Task 1 (Graph paper transcription)
+• Each member is to write their (short-hand) name in cursive on graph paper.
+• 
 
 
-## Task 2 Solution
+## Task 2 (Digital reconstruction)
+• 
 
+```rust
+Muqri will put code for names.m here
 
-## Task 3 Solution
+```
+
+## Task 3 (Word combination & function scripting)
 
 ```ruby
 function plotWord(word)
@@ -77,3 +84,9 @@ function plotWord(word)
 end
 
 ```
+
+### Contribution declaration:
+- Task 1: Everyone in the group
+- Task 2: @muqriyahya
+- Task 3: @azyansafriudin
+- README: @rameriika & @syasyahzqh
