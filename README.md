@@ -1,11 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/i8q0vJZ5)
+<img width="553" alt="hello" src="https://github.com/sm2302-aug23/grp-matlab-irrational-4/assets/141397076/948dced7-d04e-4bdd-81d4-aac6a7ea7c28">[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/i8q0vJZ5)
 
 # Group Assignment (MATLAB)
 
-# Summary 
 ## Introduction
 Welcome to our project repository! This collaborative effort involves a comprehensive approach to recreating cursive handwriting using digital methods. Our team, consisting of four members, has embarked on the journey of crafting, storing, and merging data plot points to form cohesive cursive words, as well as undertaking specific steps involving graph paper transcription and digital reconstruction to bring cursive writing to life.
-
+# Summary
 # Digital Reconstruction
 Using the `names.mat` from Task 1, plot data points with the use of:
 - `spline` : Produces a series of polynomials joined at knots. It is used to interpolate or smooth data.
