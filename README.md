@@ -23,7 +23,9 @@ Muqri will put code for names.m here
 ```
 
 ## Task 3 (Word combination & function scripting)
-
+- each member create data plot points of 6-7 letters 
+- coding references obtained from [containers.map](https://www.mathworks.com/help/releases/R2023a/matlab/ref/containers.map.html)
+- using `save(,)` to save the map to compile & save all data pts into a `.mat` file
 ```ruby
 function plotWord(word)
     % Load cursive letters map
