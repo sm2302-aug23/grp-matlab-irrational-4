@@ -21,7 +21,7 @@ Muqri will put code for names.m here
 # Word Combination & Function Scripting
 ## Project Workflow
 1. Data Plot Creation: Together, we meticulously generated data plot points representing 6-7 unique cursive letters each.
-2. Data Organization: These data plots are efficiently stored and accessed using containers.Map.
+2. Data Organization: These data plots are efficiently stored and accessed using containers.Map. We obtained the containers.Map structure from the official MATLAB documentation at [MathWorks](https://www.mathworks.com/help/matlab/ref/containers.map.html).
 3. Function Development: The plotWord function is designed to load and combine the cursive letters, facilitating the formation of complete words.
 
 ## MATLAB Implementation
