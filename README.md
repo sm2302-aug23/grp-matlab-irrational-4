@@ -6,7 +6,7 @@ Welcome to our project repository! This collaborative effort involves a comprehe
 
 # Summary
 
-# - Digital Reconstruction
+# 1) Digital Reconstruction
 Using the `names.mat` from Task 1, plot data points with the use of:
 - `spline` : Produces a series of polynomials joined at knots. It is used to interpolate or smooth data.
 - `subplot` : Illustrates all 4 members' name plot graphs in a single figure.
@@ -19,7 +19,7 @@ Muqri will put code for names.m here
 (Muqri will upload the png here)
 
 
-# Word Combination & Function Scripting
+# 2) Word Combination & Function Scripting
 
 ## Project Workflow
 1. Data Plot Creation: Together, we meticulously generated data plot points representing 6-7 unique cursive letters each.
