@@ -2,33 +2,33 @@
 cursiveMap = containers.Map;
 
 % Define cursive letter 'a' coordinates
-x_a = [1 1.4 1.5 2 3 4 3 2 1.7 1.5 2 3 4 4 4 4.5 5];
-y_a = [0.5 0.25 1.5 2.5 3 3. 3 2.5 2 1.5 0.5 0.33 1.5 3 1.5 0 0.5];
+x_a = [1 1.5 2 4 2.52866 2 3 4.2 4.2 5];
+y_a = [0.5 2 2.5 3 2.72125 1.5 0.5 3 2 0.5];
 cursiveMap('a') = [x_a; y_a]';
 
 % Define cursive letter 'b' coordinates
-x_b = [1 1.6 2 2 2 3 4 4.2 3.5 2 2 5 ];
-y_b = [0.5 1.5 4 2 1 1 1.5 2 2.5 2.1 1 0.5];
+x_b = [1 2 1.5 2 2.4 3 4 4.5 2.5 5];
+y_b = [0.5 4 4 0.5 1.5 2.5 3 0.7 0.75 0.5];
 cursiveMap('b') = [x_b; y_b]';
 
 % Define cursive letter 'c' coordinates
-x_c = [1 1.4 1.5 2 3 4 3 2 1.7 1.5 2 3 4 4.25 4 4.25 5];
-y_c = [0.5 0.25 1.5 2.5 3 3. 3 2.5 2 1.5 0.5 0.25 0.45 0.75 0.6 0.25 0.5];
+x_c = [1 2 4 3.00646 2 2 3 4 5];
+y_c = [0.5 2.6 3 2.92317 2.6 1.25 0.5 1.5 0.5];
 cursiveMap('c') = [x_c; y_c]';
 
 % Define cursive letter 'd' coordinates
-x_d = [1 2.5 4 4 4 4 3 2 2 4 4 5];
-y_d = [0.5 0.5 1  4 2 1 1 1.3 2 2.1 1 0.5];
+x_d = [1 2 4 3.00646 2 2 3 4 4 4.2 3.8 4 5];
+y_d = [0.5 2.6 3 2.92317 2.6 1.25 0.5 1.5 3 4.25 4.25 3 0.5];
 cursiveMap('d') = [x_d; y_d]';
 
 % Define cursive letter 'e' coordinates
-x_e = [1 1.5 0.9  1 2 4 3 1 2 4 3.5 5];
-y_e = [0.5 0.25 1.25 2 1.75 2 3 2 0.5 1 1.25 0.5];
+x_e = [1 0.9  1 2 4 3 1 2 4 5];
+y_e = [0.5 1.25 2 1.75 2 3 2 0.5 1 0.5];
 cursiveMap('e') = [x_e; y_e]';
 
 % Define cursive letter 'f' coordinates
-x_f = [1 2 2 2 3.2 2.6 0.3 3 4 5];
-y_f = [0.5 1 2 3.5 4 3.6 2.7 2.5 2.3  0.5];
+x_f = [1 2 2 2 3.2 4 3.2 2 2 2.2 3 3.8 1.91715 4.5 4.6 5];
+y_f = [0.5 1 2 3.5 4 3.5 4 3.5 2 1 0.5 2 2.5 2.5 1.5 0.5];
 cursiveMap('f') = [x_f; y_f]';
 
 % Define cursive letter 'g' coordinates
@@ -37,18 +37,18 @@ y_g = [ 0.5 0.75 1.5 1 0.5 1 3 4 3.5 2.5 2.5 3 1.5 0.5];
 cursiveMap('g') = [x_g; y_g]';
 
 % Define cursive letter 'h' coordinates
-x_h = [1 1.5 2.5 2 2.5 2.5 3 4 4 4 4.5 5];
-y_h = [0.5 1 3.75 3.75 0.5 0.5 2.5 2 1.25 0.5 0.5 0.5];
+x_h = [1 2.5 2 2.5 2.6 3.5 4 4 4 4.5 5];
+y_h = [0.5 3.75 3.75 0.5 2.5 3 2 1.25 0.5 0.5 0.5];
 cursiveMap('h') = [x_h; y_h]';
 
 % Define cursive letter 'i' coordinates
-x_i = [1 2 3 3.5 3 2.5 3 4 5];
-y_i = [0.5 1 2.25 3.5 4 3.5 2.25 1 0.5];
+x_i = [1 2 3 3 3 4 5];
+y_i = [0.5 0.6 1 3 1 0.6 0.5];
 cursiveMap('i') = [x_i; y_i]';
 
 % Define cursive letter 'j' coordinates
-x_j = [1 1 4 3 3.3 4 3 2.5 3.3 4 5];
-y_j = [0.5 3 4 3.66 2 1 0.5 1.5 2 2.5 0.5];
+x_j = [1 2 3 4 3 3.5 3 2 5];
+y_j = [0.5 3 3 3 3 0.5 0 1 0.5];
 cursiveMap('j') = [x_j; y_j]';
 
 % Define cursive letter 'k' coordinates
@@ -62,13 +62,13 @@ y_l = [0.5 1 2.25 3.5 4 3.5 2.25 1 0.5];
 cursiveMap('l') = [x_l; y_l]';
 
 % Define cursive letter 'm' coordinates
-x_m = [1 0.5 1 1.5 1.5 1.5 2.3 3 3 3.8 5];
-y_m = [0.5 3.5 4 4 0.5 0.5 4 0.5 0.5 4 0.5];
+x_m = [1 1.2 1.7 2 3 3 3 4 4 5];
+y_m = [0.5 3 0.5 3 3 0.5 3 3 1.5 0.5];
 cursiveMap('m') = [x_m; y_m]';
 
 % Define cursive letter 'n' coordinates
-x_n = [1 1 1.5 1.5 1.5 3 4.3 5];
-y_n = [0.5 4 4 0.5 0.5 4 4 0.5];
+x_n = [1 1.5 2 2.1 3.3 3.8 5];
+y_n = [0.5 3 0.5 3 3 1.5 0.5];
 cursiveMap('n') = [x_n; y_n]';
 
 % Define cursive letter 'o' coordinates
@@ -105,7 +105,7 @@ cursiveMap('t') = [x_t; y_t]';
 
 % Define cursive letter 'u' coordinates
 x_u = [1 2.0 1.8 2.7 4.0 4.75 4.5 5];
-y_u = [0.5 4.0 1.5 0.5 1.5 4.0 2.25 0.5];
+y_u = [0.5 3 1.5 0.5 1.5 3 2.25 0.5];
 cursiveMap('u') = [x_u; y_u]';
 
 % Define cursive letter 'v' coordinates
