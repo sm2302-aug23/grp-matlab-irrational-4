@@ -94,6 +94,12 @@ function plotWord(word)
 end
 
 ```
+To use the plotWord function, call it with a string parameter:
+```
+plotWord('Hello')
+```
+This will display the cursive representation of the word 'Hello', using the letter representations defined in the cursiveMap.
+
 (Azyan will upload png of output as example)
 
 ### Contribution declaration:
