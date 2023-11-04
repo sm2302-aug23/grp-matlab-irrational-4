@@ -16,6 +16,8 @@ Muqri will put code for names.m here
 
 ```
 
+(Muqri will upload the png here)
+
 ## Word Combination & Function Scripting
 - Each member create data plot points of 6-7 letters.
 - Coding references obtained from [containers.map](https://www.mathworks.com/help/releases/R2023a/matlab/ref/containers.map.html).
@@ -84,6 +86,7 @@ function plotWord(word)
 end
 
 ```
+(Azyan will upload png of output as example)
 
 ### Contribution declaration:
 - Task 1: Everyone in the group
