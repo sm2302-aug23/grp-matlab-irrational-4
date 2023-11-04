@@ -7,12 +7,13 @@
 > Description of solutions to all the tasks
 
 ## Task 1 (Graph paper transcription)
-• Each member is to write their (short-hand) name in cursive on graph paper.
-• 
+- Each member is to write their (short-hand) name in cursive on graph paper.
+- 
+
 
 
 ## Task 2 (Digital reconstruction)
-• 
+- 
 
 ```rust
 Muqri will put code for names.m here
