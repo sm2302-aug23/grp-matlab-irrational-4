@@ -3,8 +3,10 @@
 
 ## Introduction
 Welcome to our project repository! This collaborative effort involves a comprehensive approach to recreating cursive handwriting using digital methods. Our team, consisting of four members, has embarked on the journey of crafting, storing, and merging data plot points to form cohesive cursive words, as well as undertaking specific steps involving graph paper transcription and digital reconstruction to bring cursive writing to life.
+
 # Summary
-# Digital Reconstruction
+
+# - Digital Reconstruction
 Using the `names.mat` from Task 1, plot data points with the use of:
 - `spline` : Produces a series of polynomials joined at knots. It is used to interpolate or smooth data.
 - `subplot` : Illustrates all 4 members' name plot graphs in a single figure.
@@ -16,11 +18,13 @@ Muqri will put code for names.m here
 
 (Muqri will upload the png here)
 
+
 # Word Combination & Function Scripting
+
 ## Project Workflow
 1. Data Plot Creation: Together, we meticulously generated data plot points representing 6-7 unique cursive letters each.
 2. Data Organization: These data plots are efficiently stored and accessed using containers.Map. We obtained the containers.Map structure from the official MATLAB documentation at [MathWorks](https://www.mathworks.com/help/matlab/ref/containers.map.html).
-3. Function Development: The plotWord function is designed to load and combine the cursive letters, facilitating the formation of complete words.
+3. Function Development: A function called plotWord is designed to load and combine the cursive letters, facilitating the formation of complete words.
 
 ## MATLAB Implementation
 In order to utilize the plotWord function in MATLAB, we've provided an m-file named cursive_letters. This file contains the data for all 26 alphabetical cursive letters. Loading this file will save the necessary data into your MATLAB workspace, allowing you to execute the function successfully.
@@ -96,10 +100,11 @@ To use the plotWord function, call it with a string parameter:
 ```
 plotWord('Hello')
 ```
-This will display the cursive representation of the word 'Hello', using the letter representations defined in the cursiveMap.
+This will display the cursive representation of the word 'Hello', using the letter representations defined in the cursiveMap:
 
-<img width="553" alt="hello" src="https://github.com/sm2302-aug23/grp-matlab-irrational-4/assets/141397076/dca0c678-7473-425b-9cf0-e9ad93b01367">
-
+<p align="center">
+    <img width="553" alt="hello" src="https://github.com/sm2302-aug23/grp-matlab-irrational-4/assets/141397076/dca0c678-7473-425b-9cf0-e9ad93b01367">
+</p>
 
 ### Contribution declaration:
 - Task 1: Everyone in the group
