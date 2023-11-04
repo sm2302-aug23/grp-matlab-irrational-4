@@ -27,7 +27,7 @@ Muqri will put code for names.m here
 3. Function Development: A function called plotWord is designed to load and combine the cursive letters, facilitating the formation of complete words.
 
 ## MATLAB Implementation
-In order to utilize the plotWord function in MATLAB, we've provided an m-file named cursive_letters. This file contains the data for all 26 alphabetical cursive letters. Loading this file will save the necessary data into your MATLAB workspace, allowing you to execute the function successfully.
+In order to utilise the plotWord function in MATLAB, we have provided an m-file named cursive_letters. This file contains the data for all 26 alphabetical cursive letters. Loading this file will save the necessary data into your MATLAB workspace, allowing you to execute the function successfully.
 
 ## Objective
 Our primary goal is to establish a method for merging individual cursive letters into words using the plotWord function.
@@ -100,6 +100,7 @@ To use the plotWord function, call it with a string parameter:
 ```
 plotWord('Hello')
 ```
+
 This will display the cursive representation of the word 'Hello', using the letter representations defined in the cursiveMap:
 
 <p align="center">
