@@ -13,7 +13,9 @@
 
 
 ## Task 2 (Digital reconstruction)
-- 
+Using the `names.mat` from 1), plot data points with use of
+- `spline` : produce a series of polynomials joined at knots. Its used to interpolate or smooth data.
+- `subplot` : illustrates all 4 members' name plot graphs in a single figure
 
 ```rust
 Muqri will put code for names.m here
