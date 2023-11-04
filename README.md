@@ -6,13 +6,8 @@
 
 > Description of solutions to all the tasks
 
-## Task 1 (Graph paper transcription)
-- Each member is to write their (short-hand) name in cursive on graph paper.
-- 
 
-
-
-## Task 2 (Digital reconstruction)
+## Digital Reconstruction
 Using the `names.mat` from Task 1, plot data points with use of
 - `spline` : produces a series of polynomials joined at knots. Its used to interpolate or smooth data.
 - `subplot` : illustrates all 4 members' name plot graphs in a single figure
@@ -22,11 +17,11 @@ Muqri will put code for names.m here
 
 ```
 
-## Task 3 (Word combination & function scripting)
+## Word Combination & Function Scripting
 - each member create data plot points of 6-7 letters 
 - coding references obtained from [containers.map](https://www.mathworks.com/help/releases/R2023a/matlab/ref/containers.map.html)
 - using `save(,)` to save the map to compile & save all data pts into a `.mat` file
-```ruby
+```
 function plotWord(word)
     % Load cursive letters map
     load('cursive_letters.mat'); % Load the map containing cursive letter coordinates
