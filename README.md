@@ -6,7 +6,7 @@
 
 > Description of solutions to all the tasks
 
-## Digital Reconstruction
+# Digital Reconstruction
 Using the `names.mat` from Task 1, plot data points with the use of:
 - `spline` : Produces a series of polynomials joined at knots. It is used to interpolate or smooth data.
 - `subplot` : Illustrates all 4 members' name plot graphs in a single figure.
@@ -18,11 +18,13 @@ Muqri will put code for names.m here
 
 (Muqri will upload the png here)
 
-## Word Combination & Function Scripting
-- Each member create data plot points of 6-7 letters.
-- Coding references obtained from [containers.map](https://www.mathworks.com/help/releases/R2023a/matlab/ref/containers.map.html).
-- Using `save(,)` to save the map to compile & save all data pts into a `.mat` file.
-  
+# Word Combination & Function Scripting
+## Project Workflow
+1. Data Plot Creation: Together, we meticulously generated data plot points representing 6-7 unique cursive letters each.
+2. Data Organization: These data plots are efficiently stored and accessed using containers.Map.
+3. Function Development: The plotWord function is designed to load and combine the cursive letters, facilitating the formation of complete words.
+## Objective
+Our primary goal is to establish a method for merging individual cursive letters into words using the plotWord function.
 ```rust
 function plotWord(word)
     % Load cursive letters map
