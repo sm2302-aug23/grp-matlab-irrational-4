@@ -93,14 +93,14 @@ cursiveMap('r') = [x_r; y_r]';
 
 % Define cursive letter 's' coordinates
 x_s = [1.0 2.2 4.00 3.30 2.50 3.50 2.50 2.00 4.0 5.0];
-y_s = [0.5 1.5 2.75 3.40 2.40 0.75 0.00 0.75 1.2 0.5];
+y_s = [0.5 1.5 2.75 3 2.40 0.75 0.5 0.75 1.2 0.5];
 cursiveMap('s') = [x_s; y_s]';
 
 % Define cursive letter 't' coordinates
 x_t = [1.0 2.00 2.45 2.5 2.67 2.85 3.2 4 3.2 2.59 1.9 1.6 2.59 3.1 2.67...
-2.5 2.45 2.60 3.4 5.0];
+2.5 3 4 5];
 y_t = [0.5 0.55 1.00 1.5 2.30 2.85 3.0 3 3.0 2.99 2.9 2.8 2.99 3.8 2.30...
-1.5 1.00 0.40 0.1 0.5];
+1.5 0.5 1.5 0.5];
 cursiveMap('t') = [x_t; y_t]';
 
 % Define cursive letter 'u' coordinates
@@ -124,8 +124,8 @@ y_x = [4.0 2.25 0.75 1.25 4.0 2.25 0.75 1.0 0.5];
 cursiveMap('x') = [x_x; y_x]';
 
 % Define cursive letter 'y' coordinates
-x_y = [1.0 1.8 2.2 3.3 3.8 3.5 2.0 2.5 4.5 5];
-y_y = [0.5 4.0 2.6 2.9 4.0 1.0 0.5 1.4 2.0 0.5];
+x_y = [1 1.5 2.5 4 4 2 5];
+y_y = [0.5 3 1.5 3 0.5 0 0.5];
 cursiveMap('y') = [x_y; y_y]';
 
 % Define cursive letter 'z' coordinates
