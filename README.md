@@ -100,7 +100,8 @@ plotWord('Hello')
 ```
 This will display the cursive representation of the word 'Hello', using the letter representations defined in the cursiveMap.
 
-(Azyan will upload png of output as example)
+<img width="553" alt="hello" src="https://github.com/sm2302-aug23/grp-matlab-irrational-4/assets/141397076/dca0c678-7473-425b-9cf0-e9ad93b01367">
+
 
 ### Contribution declaration:
 - Task 1: Everyone in the group
