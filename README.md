@@ -6,11 +6,10 @@
 
 > Description of solutions to all the tasks
 
-
 ## Digital Reconstruction
-Using the `names.mat` from Task 1, plot data points with use of
-- `spline` : produces a series of polynomials joined at knots. Its used to interpolate or smooth data.
-- `subplot` : illustrates all 4 members' name plot graphs in a single figure
+Using the `names.mat` from Task 1, plot data points with the use of:
+- `spline` : Produces a series of polynomials joined at knots. It is used to interpolate or smooth data.
+- `subplot` : Illustrates all 4 members' name plot graphs in a single figure.
 
 ```rust
 Muqri will put code for names.m here
@@ -18,9 +17,10 @@ Muqri will put code for names.m here
 ```
 
 ## Word Combination & Function Scripting
-- each member create data plot points of 6-7 letters 
-- coding references obtained from [containers.map](https://www.mathworks.com/help/releases/R2023a/matlab/ref/containers.map.html)
-- using `save(,)` to save the map to compile & save all data pts into a `.mat` file
+- Each member create data plot points of 6-7 letters.
+- Coding references obtained from [containers.map](https://www.mathworks.com/help/releases/R2023a/matlab/ref/containers.map.html) .
+- Using `save(,)` to save the map to compile & save all data pts into a `.mat` file.
+  
 ```rust
 function plotWord(word)
     % Load cursive letters map
