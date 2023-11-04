@@ -2,8 +2,17 @@
 
 # Group Assignment (MATLAB)
 
+# Summary 
 
-## Solution to Task 3
+> Description of solutions to all the tasks
+
+## Task 1 Solution
+
+
+## Task 2 Solution
+
+
+## Task 3 Solution
 
 ```ruby
 function plotWord(word)
