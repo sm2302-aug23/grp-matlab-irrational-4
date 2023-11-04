@@ -18,7 +18,7 @@ Muqri will put code for names.m here
 
 ## Word Combination & Function Scripting
 - Each member create data plot points of 6-7 letters.
-- Coding references obtained from [containers.map](https://www.mathworks.com/help/releases/R2023a/matlab/ref/containers.map.html) .
+- Coding references obtained from [containers.map](https://www.mathworks.com/help/releases/R2023a/matlab/ref/containers.map.html).
 - Using `save(,)` to save the map to compile & save all data pts into a `.mat` file.
   
 ```rust
