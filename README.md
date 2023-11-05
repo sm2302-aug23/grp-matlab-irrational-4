@@ -4,8 +4,6 @@
 ## Introduction
 Welcome to our project repository! This collaborative effort involves a comprehensive approach to recreating cursive handwriting using digital methods. Our team, consisting of four members, has embarked on the journey of crafting, storing, and merging data plot points to form cohesive cursive words, as well as undertaking specific steps involving graph paper transcription and digital reconstruction to bring cursive writing to life.
 
-# Summary
-
 # 1) Digital Reconstruction
 Using the `names.mat` from Task 1, plot data points with the use of:
 - `spline` : Produces a series of polynomials joined at knots. It is used to interpolate or smooth data.
@@ -125,7 +123,7 @@ Here's a breakdown of what the function does:
 - First, it plots solid blue dots for each letter.
 - Then, it iterates through the combined word coordinates, identifying the start and end indices for each letter.
 - It generates a spline curve for each letter and plots it in black.
-6. **Finalizing the plot:** Removes the hold on the plot, adds grid lines, and sets titles and axis labels.
+6. **Finalising the plot:** Removes the hold on the plot, adds grid lines, and sets titles and axis labels.
   
 
 Here are some useful links:
