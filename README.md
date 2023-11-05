@@ -107,6 +107,11 @@ This will display the cursive representation of the word 'Hello', using the lett
     <img width="553" alt="hello" src="https://github.com/sm2302-aug23/grp-matlab-irrational-4/assets/141397076/dca0c678-7473-425b-9cf0-e9ad93b01367">
 </p>
 
+Here are some useful links:
+1. https://www.mathworks.com/help/matlab/arrays.html
+2. https://www.mathworks.com/help/matlab/scope-variables-and-generate-names.html
+3. https://www.mathworks.com/help/matlab/ref/nan.html
+
 ### Contribution declaration:
 - Task 1: Everyone in the group
 - Task 2: @muqriyahya
