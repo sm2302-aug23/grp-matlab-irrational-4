@@ -34,12 +34,12 @@ function plotWord(word)
     plot(wordCoordinates(:, 1), wordCoordinates(:, 2), 'b.', 'MarkerSize', 10); % Plot solid blue dots
     hold on; % Retain the current plot while adding the splines
 
-    % Iterate through each letter, plotting spline curves
+    % Iterate through each letter, plotting spline curves with animation
     startIdx = 1;
     endIdx = 1;
     while endIdx <= size(wordCoordinates, 1)
         if isnan(wordCoordinates(endIdx, 1))
-            % Plot spline curve for the letters
+            % Plot spline curve for the letters with animation
             splineX = wordCoordinates(startIdx:endIdx - 1, 1);
             splineY = wordCoordinates(startIdx:endIdx - 1, 2);
             t = 1:numel(splineX);
@@ -48,6 +48,9 @@ function plotWord(word)
             ys = spline(t, splineY, ts);
             plot(xs, ys, 'k', 'LineWidth', 1); % Plot the spline curve in black
             startIdx = endIdx + 1;
+
+            % Introduce a pause for a little animation
+            pause(0.35); % Adjust the pause duration as needed
         end
         endIdx = endIdx + 1;
     end
@@ -58,4 +61,3 @@ function plotWord(word)
     xlabel('X-axis');
     ylabel('Y-axis');
 end
-
