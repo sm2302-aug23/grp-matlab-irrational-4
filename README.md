@@ -107,6 +107,27 @@ This will display the cursive representation of the word 'Hello', using the lett
     <img width="553" alt="hello" src="https://github.com/sm2302-aug23/grp-matlab-irrational-4/assets/141397076/dca0c678-7473-425b-9cf0-e9ad93b01367">
 </p>
 
+Here's a breakdown of what the function does:
+
+1. **Loading cursive letters map:** Loads a map containing cursive letter coordinates from a file named 'cursive_letters.mat'.
+
+2. **Input processing:** Converts the input word to lowercase.
+
+3. **Initialising variables:** Initialises variables for plotting coordinates and shift value for x-coordinate.
+
+4. **Combining letters into words:** Iterates through each letter of the input word. For each letter:
+- Fetches the cursive coordinates for the current letter.
+- Shifts the x-coordinates of the current letter based on the shift value.
+- Combines the coordinates for the word, separating letters by NaN values for plotting.
+- Updates the shift value for the next letter.
+- If the coordinates for a letter are not found, it displays an error message.
+5. **Plotting:** Plots the cursive word with spline interpolation.
+- First, it plots solid blue dots for each letter.
+- Then, it iterates through the combined word coordinates, identifying the start and end indices for each letter.
+- It generates a spline curve for each letter and plots it in black.
+6. **Finalizing the plot:** Removes the hold on the plot, adds grid lines, and sets titles and axis labels.
+  
+
 Here are some useful links:
 1. https://www.mathworks.com/help/matlab/arrays.html
 2. https://www.mathworks.com/help/matlab/scope-variables-and-generate-names.html
