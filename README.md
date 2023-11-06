@@ -158,6 +158,9 @@ function plotWord(word)
             ys = spline(t, splineY, ts);
             plot(xs, ys, 'k', 'LineWidth', 1); % Plot the spline curve in black
             startIdx = endIdx + 1;
+
+            % Introduce a pause for a little animation
+            pause(0.35); % Adjust the pause duration as needed
         end
         endIdx = endIdx + 1;
     end
