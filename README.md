@@ -2,7 +2,7 @@
 # Group Assignment (MATLAB)
 
 ## Introduction
-Welcome to our project repository! This collaborative effort involves a comprehensive approach to recreating cursive handwriting using digital methods. Our team, consisting of four members, has embarked on the journey of crafting, storing, and merging data plot points to form cohesive cursive words, as well as undertaking specific steps involving graph paper transcription and digital reconstruction to bring cursive writing to life.
+Welcome to our project repository! This project is a creative endeavor by our team of four, exploring the fusion of art and computational techniques. We have meticulously plotted our names in cursive on graph paper and aim to digitally reconstruct them using spline interpolation in MATLAB. Additionally, we are developing a method within MATLAB to combine individual letters into cohesive words while maintaining the original cursive style.
 
 # 1) Digital Reconstruction
 Using the `names.mat` from Task 1, plot data points with the use of:
@@ -181,7 +181,7 @@ This will display the cursive representation of the word 'Hello', using the lett
     <img width="553" alt="hello" src="https://github.com/sm2302-aug23/grp-matlab-irrational-4/assets/141397076/dca0c678-7473-425b-9cf0-e9ad93b01367">
 </p>
 
-Here's a breakdown of what the function does:
+#### Here's a breakdown of what the function does:
 
 1. **Loading cursive letters map:** Loads a map containing cursive letter coordinates from a file named 'cursive_letters.mat'.
 
@@ -202,7 +202,7 @@ Here's a breakdown of what the function does:
 6. **Finalising the plot:** Removes the hold on the plot, adds grid lines, and sets titles and axis labels.
   
 
-Here are some useful links:
+#### Here are some useful links:
 1. https://www.mathworks.com/help/matlab/arrays.html
 2. https://www.mathworks.com/help/matlab/scope-variables-and-generate-names.html
 3. https://www.mathworks.com/help/matlab/ref/nan.html
