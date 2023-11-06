@@ -86,7 +86,7 @@ axis([min(x)-0.5,max(x)+0.5,min(y)-0.5,max(y)+0.5]);
 end
 ```
 
-Attached below is the image of all four subplots of the group member's names
+Attached below is the image when the code is run on MATLAB, producing the names of all group member's names.
 <p align="center">
    <img width="1236" alt="Subplot_Names" src="https://github.com/sm2302-aug23/grp-matlab-irrational-4/assets/141397013/34617fca-41ec-4e0f-8c7d-c48d70a72fdf">
 </p>
