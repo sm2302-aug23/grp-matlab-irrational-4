@@ -5,7 +5,7 @@ function plotWord(word)
     % Convert the input word to lowercase
     word = lower(word);
 
-    % Initialize variables for plotting coordinates
+    % Initialise variables for plotting coordinates
     wordCoordinates = [];
 
     % Shift value for x-coordinate
