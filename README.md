@@ -10,7 +10,7 @@ Using the `names.mat` from Task 1, plot data points with the use of:
 - `subplot` : Illustrates all 4 members' name plot graphs in a single figure.
 
 ```rust
-% Plot the x and y coordinates of each group member's name
+% Plot the x and y coordinates for each group member's name
 % Azyan
 x1 = [2.5 2 1.25 1 1.5 2.5 2.5 2.5 2.65 3 3.5 4 4.5 3.8 3.8 4 4.75 5 4.75...
 4 3.35 4 4.75 5.5 6 6 6.75 7.2 7.5 7.5 7.5 7.45 6.5 6 7.5 8 8.5 8.75...
@@ -45,19 +45,19 @@ x4 = [1 1 1 2 2.5 3.5 4 4 5 6.5 6 7 9 9 7 8.5 9.25 9 8.9 10 11 11 11.5 13 14 14 
 
 y4 = [1 3.5 3 4 2.5 4 1 3 1 3 2.5 1 1.5 3 2 1.25 2 0 0.3 0.5 3 1 2 3 2.75 3.5 1];
 
-% Making the figure for the four subplots
+% Make the figure for the four subplots
 figure;
 
 % Names for each subplot
 subplot_names = {'Azyan', 'Syasya', 'Erika', 'Muqri'};
 
-% Creating the four subplots
+% Create the four subplots
 create_subplot(x1, y1, 1, subplot_names{1});
 create_subplot(x2, y2, 2, subplot_names{2});
 create_subplot(x3, y3, 3, subplot_names{3});
 create_subplot(x4, y4, 4, subplot_names{4});
 
-% Making the function to plot the names in calligraphy
+% Function to plot the names in cursive
 function create_subplot(x,y,subplot_num,subplot_name)
     % Subplot with 2 rows and 2 columns
     subplot(2,2,subplot_num);
@@ -74,10 +74,10 @@ function create_subplot(x,y,subplot_num,subplot_name)
     plot(x, y, 'bo', 'MarkerFaceColor', 'b'); % plot data points
     grid on
 
-    % Defining the axis for each subplot
+    % Define the axis for each subplot
 axis([min(x)-0.5,max(x)+0.5,min(y)-0.5,max(y)+0.5]);
 
-    % Naming the title and axis for each subplot
+    % Name the title and axis for each subplot
     title(subplot_name);
     xlabel('x');
     ylabel('y');
