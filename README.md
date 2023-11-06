@@ -86,7 +86,7 @@ axis([min(x)-0.5,max(x)+0.5,min(y)-0.5,max(y)+0.5]);
 end
 ```
 
-(Muqri will upload the png here)
+Attached below is the image of all four subplots of the group member's names
 
 
 # 2) Word Combination & Function Scripting
